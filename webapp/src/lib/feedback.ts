@@ -1,6 +1,6 @@
 // Fale conosco: texto e link da issue do GitHub. Sem dependências, para rodar no servidor e nos testes.
 
-export const REPOSITORIO = "https://github.com/gustavo-Apps/projeto-cardapio-digital";
+export const REPOSITORIO = "https://github.com/gustavo-Apps/Sabor-Local";
 
 const ROTULOS = { problema: "bug", sugestao: "enhancement", duvida: "question" } as const;
 const PREFIXOS = { problema: "Problema", sugestao: "Sugestão", duvida: "Dúvida" } as const;

@@ -7,7 +7,7 @@ export const metadata: Metadata = {
 };
 
 const GITHUB_PERFIL = "https://github.com/gustavo-Apps";
-const GITHUB_REPO = "https://github.com/gustavo-Apps/projeto-cardapio-digital";
+const GITHUB_REPO = "https://github.com/gustavo-Apps/Sabor-Local";
 
 export default function ContribuicaoPage() {
   return (
