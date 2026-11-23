@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Falha de segurança
+    url: https://github.com/gustavo-Apps/projeto-cardapio-digital/security/advisories/new
+    about: Não abra issue pública. Use o relato privado.

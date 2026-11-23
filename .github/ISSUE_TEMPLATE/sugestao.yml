@@ -1,0 +1,20 @@
+name: Sugestão
+description: Uma ideia para melhorar o Sabor Local
+labels: [enhancement]
+body:
+  - type: textarea
+    id: ideia
+    attributes:
+      label: Qual é a ideia?
+    validations:
+      required: true
+  - type: dropdown
+    id: quem
+    attributes:
+      label: Para quem?
+      options: [Cliente, Vendedor, Administrador, Quem contribui com o código]
+  - type: textarea
+    id: porque
+    attributes:
+      label: Que problema isso resolve?
+      description: Lembre do princípio do projeto, cidade pequena e pessoas simples.

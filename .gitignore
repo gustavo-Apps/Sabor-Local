@@ -1,0 +1,6 @@
+
+# materiais de terceiros usados só em testes locais
+webapp/scripts/*.pdf
+
+# arquivos locais do Supabase Studio
+webapp/supabase/snippets/

@@ -1,0 +1,42 @@
+{
+  "name": "webapp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "test": "node --test --test-concurrency=1 \"tests/**/*.test.mjs\"",
+    "test:unit": "node --test \"tests/unit/*.test.mjs\"",
+    "test:api": "node --test --test-concurrency=1 \"tests/api/*.test.mjs\"",
+    "test:http": "node --test --test-concurrency=1 \"tests/http/*.test.mjs\"",
+    "test:forca-bruta": "node --test --test-concurrency=1 \"tests/forca-bruta/*.test.mjs\"",
+    "seed:cliente-teste": "node scripts/seed-cliente-teste.mjs",
+    "typecheck": "next typegen && tsc --noEmit",
+    "verificar:producao": "node scripts/verificar-producao.mjs"
+  },
+  "dependencies": {
+    "@supabase/ssr": "^0.12.7",
+    "@supabase/supabase-js": "^2.117.3",
+    "next": "16.4.0",
+    "qrcode": "^1.5.4",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "server-only": "^0.0.1"
+  },
+  "devDependencies": {
+    "@emnapi/core": "^1.11.3",
+    "@emnapi/runtime": "^1.11.3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/qrcode": "^1.5.6",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.0",
+    "supabase": "^2.120.0",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
